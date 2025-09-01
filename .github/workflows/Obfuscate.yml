@@ -30,7 +30,7 @@ jobs:
 
       - name: Download and extract latest BPB worker
         run: |
-          wget https://github.com/yonggekkk/Cloudflare-vless-trojan/blob/main/Vless_workers_pages/_worker混淆.js
+          wget https://github.com/yonggekkk/Cloudflare-vless-trojan/blob/cd9ddd5443e1cdaa6bb1336bdb01d4a948cfae72/Vless_workers_pages/_worker%E6%B7%B7%E6%B7%86.js
           mv _worker.js origin.js
 
       - name: Obfuscate BPB worker js
